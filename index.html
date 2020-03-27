@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>InEx Calculator</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <style>
+        </style>
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Income-Expense Calculator</h1>
+            <h2>by: Aditya Pradipta</h2>
+            <div>
+                <input type="text" id="myList" placeholder="List Item"><br>
+                <input type="number" id="income" placeholder="Income (in Rupiah)"><br>
+                <input type="number" id="expense" placeholder="Expense (in Rupiah)"><br>
+                <button onclick="newList()" class="addBtn">Add</button>
+            </div>
+        </div>
+        <div>
+            <ul id="myUL">
+            </ul>
+        </div>
+        <section id="calculation">
+            <div id="totalIncome"></div>
+            <div id="totalExpense"></div>
+        </section>
+        <section id="resume"></section>
+        <footer>
+            <div><p>Copyright@2020   -   All Rights Reserved</p></div>
+        </footer>
+    </body>
+
+
+    <script src="script.js"></script>
+</html>
